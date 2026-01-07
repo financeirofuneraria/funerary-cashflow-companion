@@ -48,9 +48,7 @@ export default function Sidebar() {
               Sistema Financeiro
  
             </h1>
-            <p className="text-xs text-sidebar-foreground/70 truncate">
-              Gestão Financeira
-            </p>
+            <p className="text-xs text-sidebar-foreground/70 truncate">Imbituba & Garopaba</p>
           </div>
         </div>
       </div>
