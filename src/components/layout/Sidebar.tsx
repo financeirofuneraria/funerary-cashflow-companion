@@ -9,7 +9,6 @@ import {
   ArrowLeftRight,
   FileText,
   LogOut,
-  Cross,
   Menu,
   X,
 } from 'lucide-react';
@@ -38,8 +37,8 @@ export default function Sidebar() {
       {/* Logo */}
       <div className="p-6 border-b border-sidebar-border">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-lg bg-sidebar-primary flex items-center justify-center">
-            <Cross className="w-5 h-5 text-sidebar-primary-foreground" />
+          <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden">
+            <img src="/logo.svg" alt="Funerária Imbituba" className="w-8 h-8 object-contain" />
           </div>
           <div className="flex-1 min-w-0">
             <h1 className="text-sm font-bold text-sidebar-foreground truncate">
